@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/home"
+        android:orderInCategory="1"
+        android:title="Главная"
+        android:backgroundTint="@color/black"/>
+    <item
+        android:id="@+id/category"
+        android:icon="@drawable/files"
+        android:orderInCategory="2"
+        android:title="Каталог"
+        android:backgroundTint="@color/black"/>
+    <item
+        android:id="@+id/basket"
+        android:icon="@drawable/shopping"
+        android:orderInCategory="3"
+        android:title="Корзина"
+        android:backgroundTint="@color/black"/>
+    <item
+        android:id="@+id/promotion"
+        android:icon="@drawable/promotions"
+        android:orderInCategory="4"
+        android:title="Акции"
+        android:backgroundTint="@color/black"/>
+
+    <item
+        android:id="@+id/profile"
+        android:icon="@drawable/user"
+        android:orderInCategory="4"
+        android:title="Профиль"
+        android:backgroundTint="@color/black"/>
+
+</menu>
